@@ -149,7 +149,7 @@ async def answer(client, callback_query):
 				except:
 					pass
 			try:
-				await app.copy_message(-1001551364203,callback_query.message.chat.id,callback_query.message.message_id+1)	
+				await app.copy_message(  CHAT  ,callback_query.message.chat.id,callback_query.message.message_id+1)	
 				with open("id.txt",'rb') as idd:
 					yess = str(idd.read())
 					yess = yess.replace("'",'')
