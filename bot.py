@@ -11,9 +11,9 @@ from pytube.cli import on_progress
 import asyncio
 
 app = Client(
-    "5008830842:AAF-2zpPXS4IVheU5kOX8q-h7G1QTX5rPa0",
-    api_id=12310715,
-    api_hash="c5209ec201f9b597358b82f9bdc4d544"
+    "API_TOKEN",
+    api_id=API_ID,
+    api_hash=API_HASH
 )
 
 global loo
